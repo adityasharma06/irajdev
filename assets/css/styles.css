@@ -301,9 +301,9 @@ body.dark-theme {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  /* max-width: 1024px; */
+  /* margin-left: 1.5rem; */
+  /* margin-right: 1.5rem; */
 }
 
 .grid {
@@ -1047,8 +1047,9 @@ body.dark-theme {
 /* For small devices */
 @media screen and (max-width: 350px) {
   .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    width: 100%;
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
   }
 
   .section {
@@ -1066,6 +1067,7 @@ body.dark-theme {
 }
 
 @media screen and (max-width: 320px) {
+  
   .nav__menu {
     padding: 1.3rem 1.5rem;
   }
@@ -1597,3 +1599,16 @@ h2{
 .form-control, .input-group-text, .btn {
   box-shadow: none;
 }
+.founder__name {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .founder__name {
+      font-size: 0.9rem;
+      margin-top: 0.3rem;
+  }
+}
+
