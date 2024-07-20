@@ -683,7 +683,7 @@ body.dark-theme {
   width: 250px;
   height: 250px;
   /* border-radius: 50%; */
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: auto;
   /* box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25); */
 }
@@ -1611,3 +1611,4 @@ h2{
       margin-top: 0.3rem;
   }
 }
+
